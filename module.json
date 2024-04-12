@@ -13,11 +13,18 @@
         "type": "system",
         "compatibility": {}
       }
+    ],
+    "requires": [
+      {
+        "id": "pf2e-animal-companions",
+        "type": "module",
+        "compatibility": {}
+      }
     ]
   },
   "authors": [
     {
-      "name": "OfflineEnigma",
+      "name": "Michael Hosp",
       "email": "enigmahomebrew@gmail.com",
       "discord": "offlineenigma"
     }
@@ -116,5 +123,6 @@
         "ASSISTANT": "OWNER"
       }
     }
-  ]
+  ],
+  "description": "A foundry module containing everything from the Heresy of the Whispering Way supplement."
 }
