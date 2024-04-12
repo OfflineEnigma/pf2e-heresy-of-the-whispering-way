@@ -126,4 +126,5 @@
   ],
   "description": "A foundry module containing everything from the Heresy of the Whispering Way supplement.",
   "url": "https://github.com/Kindpokemon/pf2e-heresy-of-the-whispering-way/"
+  "manifest": "https://raw.githubusercontent.com/Kindpokemon/pf2e-heresy-of-the-whispering-way/main/module.json"
 }
