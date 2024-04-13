@@ -1,7 +1,7 @@
 {
   "id": "pf2e-heresy-of-the-whispering-way",
   "title": "PF2e - Heresy of the Whispering Way",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
