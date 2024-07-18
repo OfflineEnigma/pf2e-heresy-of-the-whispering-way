@@ -1,3 +1,7 @@
-2024/04/19-01:46:37.432 24b84 Recovering log #90
-2024/04/19-01:46:37.447 24b84 Delete type=0 #90
-2024/04/19-01:46:37.448 24b84 Delete type=3 #89
+2024/07/18-15:28:17.482 283c Recovering log #182
+2024/07/18-15:28:17.495 283c Delete type=0 #182
+2024/07/18-15:28:17.496 283c Delete type=3 #180
+2024/07/18-15:54:54.642 4acc Level-0 table #187: started
+2024/07/18-15:54:54.642 4acc Level-0 table #187: 0 bytes OK
+2024/07/18-15:54:54.649 4acc Delete type=0 #185
+2024/07/18-15:54:54.663 4acc Manual compaction at level-0 from '!items!QLF6Ck4cxtHLto2L' @ 72057594037927935 : 1 .. '!items!QLF6Ck4cxtHLto2L' @ 0 : 0; will stop at (end)

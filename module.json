@@ -1,176 +1,172 @@
 {
-   "id":"pf2e-heresy-of-the-whispering-way",
-   "title":"PF2e - Heresy of the Whispering Way",
-   "version":"#{VERSION}#",
-   "compatibility":{
-      "minimum":"11",
-      "verified":"11"
-   },
-   "relationships":{
-      "systems":[
-         {
-            "id":"pf2e",
-            "type":"system",
-            "compatibility":{
-               
-            }
-         }
+  "id": "pf2e-heresy-of-the-whispering-way",
+  "title": "PF2e - Heresy of the Whispering Way",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "pf2e-animal-companions",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "clerics-remaster",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Michael Hosp",
+      "email": "enigmahomebrew@gmail.com",
+      "discord": "offlineenigma",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "OfflineEnigma's Homebrew",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Heresy of the Whispering Way",
+          "sorting": "a",
+          "packs": [
+            "feats",
+            "subclasses",
+            "spells",
+            "equipment",
+            "companions",
+            "deities",
+            "abilities",
+            "clerics"
+          ],
+          "folders": [],
+          "color": null
+        }
       ],
-      "requires":[
-         {
-            "id":"pf2e-animal-companions",
-            "type":"module",
-            "compatibility":{
-               
-            }
-         }
-      ],
-      "recommends":[
-         {
-            "id":"clerics-remaster",
-            "type":"module"
-         }
-      ]
-   },
-   "authors":[
-      {
-         "name":"Michael Hosp",
-         "email":"enigmahomebrew@gmail.com",
-         "discord":"offlineenigma"
+      "color": null
+    }
+  ],
+  "packs": [
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
       }
-   ],
-   "packFolders":[
-      {
-         "name":"OfflineEnigma's Homebrew",
-         "sorting":"a",
-         "packs":[
-            
-         ],
-         "folders":[
-            {
-               "name":"Heresy of the Whispering Way",
-               "sorting":"a",
-               "packs":[
-                  "feats",
-                  "subclasses",
-                  "spells",
-                  "equipment",
-                  "companions",
-                  "deities",
-                  "abilities",
-                  "clerics"
-               ],
-               "folders":[
-                  
-               ]
-            }
-         ]
+    },
+    {
+      "name": "subclasses",
+      "label": "Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
       }
-   ],
-   "packs":[
-      {
-         "name":"feats",
-         "label":"Feats",
-         "path":"packs/feats",
-         "type":"Item",
-         "system":"pf2e",
-         "ownership":{
-            "PLAYER":"OBSERVER",
-            "ASSISTANT":"OWNER"
-         }
-      },
-      {
-         "name":"subclasses",
-         "label":"Subclasses",
-         "path":"packs/subclasses",
-         "type":"Item",
-         "system":"pf2e",
-         "ownership":{
-            "PLAYER":"OBSERVER",
-            "ASSISTANT":"OWNER"
-         }
-      },
-      {
-         "name":"spells",
-         "label":"Spells",
-         "path":"packs/spells",
-         "type":"Item",
-         "system":"pf2e",
-         "ownership":{
-            "PLAYER":"OBSERVER",
-            "ASSISTANT":"OWNER"
-         }
-      },
-      {
-         "name":"equipment",
-         "label":"Equipment",
-         "path":"packs/equipment",
-         "type":"Item",
-         "system":"pf2e",
-         "ownership":{
-            "PLAYER":"OBSERVER",
-            "ASSISTANT":"OWNER"
-         }
-      },
-      {
-         "name":"companions",
-         "label":"Companions",
-         "path":"packs/companions",
-         "type":"Item",
-         "system":"pf2e",
-         "ownership":{
-            "PLAYER":"OBSERVER",
-            "ASSISTANT":"OWNER"
-         }
-      },
-      {
-         "name":"deities",
-         "label":"Deities",
-         "path":"packs/deities",
-         "type":"Item",
-         "system":"pf2e",
-         "ownership":{
-            "PLAYER":"OBSERVER",
-            "ASSISTANT":"OWNER"
-         }
-      },
-      {
-         "name":"abilities",
-         "label":"Abilities",
-         "path":"packs/abilities",
-         "type":"Item",
-         "system":"pf2e",
-         "ownership":{
-            "PLAYER":"OBSERVER",
-            "ASSISTANT":"OWNER"
-         }
-      },
-      {
-         "name":"clerics",
-         "label":"Clerics+",
-         "path":"packs/clerics",
-         "type":"Item",
-         "ownership":{
-            "PLAYER":"OBSERVER",
-            "ASSISTANT":"OWNER"
-         },
-         "system":"pf2e"
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
       }
-   ],
-   "flags": {
-	   "pf2e-heresy-of-the-whispering-way": {
-		   "pf2e-homebrew": {
-			   "equipmentTraits": {
-				   "necrograft": {
-					   "label": "Necrograft",
-					   "description": "Necrografts are macabre additions made to replace a sick or missing part, though some necromancers will use them as an extreme form of body modification, replacing perfectly healthy flesh with an undead equivalent. Necrografts can only be attached to humanoid creatures, and can only be used to replace a part. Implanted necrografts have a bulk of “-”.\n\nA necrograft can only be attached by a creature with the Stitch Flesh feat. The attachment process takes an hour, and the creature must make a Hard Fortitude save or the necrograft fails to integrate and must be attempted again. Either way, the creature becomes drained 2, or increases its current drained value by 2 due to the necromantic trauma of the surgery.\n\nIf a creature with any necrografts is resurrected, any necrografts on the person are destroyed by the powerful vitality magic."
-				   }
-			   }
-		   }
-	   }
-   },
-   "description":"A foundry module containing everything from the Heresy of the Whispering Way supplement.",
-   "url":"#{URL}#",
-   "manifest":"#{MANIFEST}#",
-   "download":"#{DOWNLOAD}#"
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "companions",
+      "label": "Companions",
+      "path": "packs/companions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "deities",
+      "label": "Deities",
+      "path": "packs/deities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "abilities",
+      "label": "Abilities",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "clerics",
+      "label": "Clerics+",
+      "path": "packs/clerics",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "flags": {
+    "pf2e-heresy-of-the-whispering-way": {
+      "pf2e-homebrew": {
+        "equipmentTraits": {
+          "necrograft": {
+            "label": "Necrograft",
+            "description": "Necrografts are macabre additions made to replace a sick or missing part, though some necromancers will use them as an extreme form of body modification, replacing perfectly healthy flesh with an undead equivalent. Necrografts can only be attached to humanoid creatures, and can only be used to replace a part. Implanted necrografts have a bulk of “-”.\n\nA necrograft can only be attached by a creature with the Stitch Flesh feat. The attachment process takes an hour, and the creature must make a Hard Fortitude save or the necrograft fails to integrate and must be attempted again. Either way, the creature becomes drained 2, or increases its current drained value by 2 due to the necromantic trauma of the surgery.\n\nIf a creature with any necrografts is resurrected, any necrografts on the person are destroyed by the powerful vitality magic."
+          }
+        }
+      }
+    }
+  },
+  "description": "A foundry module containing everything from the Heresy of the Whispering Way supplement.",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#"
 }
