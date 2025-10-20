@@ -3,8 +3,8 @@
   "title": "PF2e - Heresy of the Whispering Way",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": "11",
-    "verified": "12"
+    "minimum": "13",
+    "verified": "13"
   },
   "relationships": {
     "systems": [
@@ -24,6 +24,16 @@
     "recommends": [
       {
         "id": "clerics-remaster",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-soldiers-of-the-immortal-war",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "xdy-pf2e-workbench",
         "type": "module",
         "compatibility": {}
       }
@@ -52,7 +62,7 @@
             "spells",
             "equipment",
             "companions",
-            "deities",
+            "rules",
             "abilities",
             "clerics"
           ],
@@ -67,6 +77,7 @@
     {
       "name": "feats",
       "label": "Feats",
+      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part4.png",
       "path": "packs/feats",
       "type": "Item",
       "system": "pf2e",
@@ -78,6 +89,7 @@
     {
       "name": "subclasses",
       "label": "Subclasses",
+      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part7.png",
       "path": "packs/subclasses",
       "type": "Item",
       "system": "pf2e",
@@ -89,6 +101,7 @@
     {
       "name": "spells",
       "label": "Spells",
+      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part6.png",
       "path": "packs/spells",
       "type": "Item",
       "system": "pf2e",
@@ -100,6 +113,7 @@
     {
       "name": "equipment",
       "label": "Equipment",
+      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part3.png",
       "path": "packs/equipment",
       "type": "Item",
       "system": "pf2e",
@@ -111,6 +125,7 @@
     {
       "name": "companions",
       "label": "Companions",
+      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part2.png",
       "path": "packs/companions",
       "type": "Item",
       "system": "pf2e",
@@ -120,10 +135,11 @@
       }
     },
     {
-      "name": "deities",
-      "label": "Deities",
-      "path": "packs/deities",
-      "type": "Item",
+      "name": "rules",
+      "label": "Rules",
+      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part5.png",
+      "path": "packs/rules",
+      "type": "JournalEntry",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -133,6 +149,7 @@
     {
       "name": "abilities",
       "label": "Abilities",
+      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part0.png",
       "path": "packs/abilities",
       "type": "Item",
       "system": "pf2e",
@@ -144,6 +161,7 @@
     {
       "name": "clerics",
       "label": "Clerics+",
+      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part1.png",
       "path": "packs/clerics",
       "type": "Item",
       "system": "pf2e",
@@ -159,13 +177,17 @@
         "equipmentTraits": {
           "necrograft": {
             "label": "Necrograft",
-            "description": "Necrografts are macabre additions made to replace a sick or missing part, though some necromancers will use them as an extreme form of body modification, replacing perfectly healthy flesh with an undead equivalent. Necrografts can only be attached to humanoid creatures, and can only be used to replace a part. Implanted necrografts have a bulk of “-”.\n\nA necrograft can only be attached by a creature with the Stitch Flesh feat. The attachment process takes an hour, and the creature must make a Hard Fortitude save or the necrograft fails to integrate and must be attempted again. Either way, the creature becomes drained 2, or increases its current drained value by 2 due to the necromantic trauma of the surgery.\n\nIf a creature with any necrografts is resurrected, any necrografts on the person are destroyed by the powerful vitality magic."
+            "description": "Necrografts are macabre additions made to replace a sick or missing part, though some necromancers will use them as an extreme form of body modification, replacing perfectly healthy flesh with an undead equivalent. All necrografts have the graft trait, can only be attached to humanoid creatures, and can only be used to replace a part. A necrograft can only be attached by a creature with the Stitch Flesh feat (as well as the Graft Technician feat, as normal).If a creature with any necrografts is resurrected, any necrografts on the person are destroyed by the powerful vitality magic."
           }
+        },
+        "featTraits": {
+          "consignment": "Consignment",
+          "mortic": "Mortic"
         }
       }
     }
   },
-  "description": "A foundry module containing everything from the Heresy of the Whispering Way supplement.",
+  "description": "<p>A foundry module containing everything from the Heresy of the Whispering Way supplement.</p>",
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#"

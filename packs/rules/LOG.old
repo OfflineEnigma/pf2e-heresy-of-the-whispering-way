@@ -1,0 +1,5 @@
+2025/10/18-22:40:33.410 39dc Recovering log #83
+2025/10/18-22:40:33.414 39dc Level-0 table #85: started
+2025/10/18-22:40:33.433 39dc Level-0 table #85: 799875 bytes OK
+2025/10/18-22:40:33.440 39dc Delete type=0 #83
+2025/10/18-22:40:33.440 39dc Delete type=3 #82
