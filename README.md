@@ -1,5 +1,5 @@
 # pf2e-heresy-of-the-whispering-way
--
+
 Foundry VTT support for Heresy of the Whispering Way, a PF2E supplement by OfflineEnigma/Michael Hosp/Me
 
 Module can also be found in the Foundry module browser, or here:
