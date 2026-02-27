@@ -23,17 +23,7 @@
     ],
     "recommends": [
       {
-        "id": "clerics-remaster",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
         "id": "pf2e-soldiers-of-the-immortal-war",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "xdy-pf2e-workbench",
         "type": "module",
         "compatibility": {}
       }
@@ -181,8 +171,14 @@
           }
         },
         "featTraits": {
-          "consignment": "Consignment",
-          "mortic": "Mortic"
+          "aether": "Aether",
+          "saga": {
+            "label": "Saga",
+            "description": ""
+          }
+        },
+        "spellTraits": {
+          "flourish": "Flourish"
         }
       }
     }
