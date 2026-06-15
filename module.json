@@ -1,190 +1,305 @@
 {
-  "id": "pf2e-heresy-of-the-whispering-way",
-  "title": "PF2e - Heresy of the Whispering Way",
-  "version": "#{VERSION}#",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ],
-    "requires": [
-      {
-        "id": "pf2e-animal-companions",
-        "type": "module",
-        "compatibility": {}
-      }
-    ],
-    "recommends": [
-      {
-        "id": "pf2e-soldiers-of-the-immortal-war",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
-  },
-  "authors": [
-    {
-      "name": "Michael Hosp",
-      "email": "enigmahomebrew@gmail.com",
-      "discord": "offlineenigma",
-      "flags": {}
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "OfflineEnigma's Homebrew",
-      "sorting": "a",
-      "packs": [],
-      "folders": [
-        {
-          "name": "Heresy of the Whispering Way",
-          "sorting": "a",
-          "packs": [
-            "feats",
-            "subclasses",
-            "spells",
-            "equipment",
-            "companions",
-            "rules",
-            "abilities",
-            "clerics"
-          ],
-          "folders": [],
-          "color": null
-        }
-      ],
-      "color": null
-    }
-  ],
-  "packs": [
-    {
-      "name": "feats",
-      "label": "Feats",
-      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part4.png",
-      "path": "packs/feats",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "subclasses",
-      "label": "Subclasses",
-      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part7.png",
-      "path": "packs/subclasses",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "spells",
-      "label": "Spells",
-      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part6.png",
-      "path": "packs/spells",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "equipment",
-      "label": "Equipment",
-      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part3.png",
-      "path": "packs/equipment",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "companions",
-      "label": "Companions",
-      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part2.png",
-      "path": "packs/companions",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "rules",
-      "label": "Rules",
-      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part5.png",
-      "path": "packs/rules",
-      "type": "JournalEntry",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "abilities",
-      "label": "Abilities",
-      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part0.png",
-      "path": "packs/abilities",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "clerics",
-      "label": "Clerics+",
-      "banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part1.png",
-      "path": "packs/clerics",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-  "flags": {
-    "pf2e-heresy-of-the-whispering-way": {
-      "pf2e-homebrew": {
-        "equipmentTraits": {
-          "necrograft": {
-            "label": "Necrograft",
-            "description": "Necrografts are macabre additions made to replace a sick or missing part, though some necromancers will use them as an extreme form of body modification, replacing perfectly healthy flesh with an undead equivalent. All necrografts have the graft trait, can only be attached to humanoid creatures, and can only be used to replace a part. A necrograft can only be attached by a creature with the Stitch Flesh feat (as well as the Graft Technician feat, as normal).If a creature with any necrografts is resurrected, any necrografts on the person are destroyed by the powerful vitality magic."
-          }
-        },
-        "featTraits": {
-          "aether": "Aether",
-          "saga": {
-            "label": "Saga",
-            "description": ""
-          }
-        },
-        "spellTraits": {
-          "flourish": "Flourish"
-        }
-      }
-    }
-  },
-  "description": "<p>A foundry module containing everything from the Heresy of the Whispering Way supplement.</p>",
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#"
+	"id": "pf2e-heresy-of-the-whispering-way",
+	"title": "PF2e - Heresy of the Whispering Way",
+	"version": "#{VERSION}#",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "pf2e",
+				"type": "system",
+				"compatibility": {}
+			},
+			{
+				"id": "sf2e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "1.0.3"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "pf2e-animal-companions",
+				"type": "module",
+				"compatibility": {}
+			}
+		],
+		"recommends": [
+			{
+				"id": "pf2e-soldiers-of-the-immortal-war",
+				"type": "module",
+				"compatibility": {}
+			}
+		]
+	},
+	"authors": [
+		{
+			"name": "Michael Hosp",
+			"email": "enigmahomebrew@gmail.com",
+			"discord": "offlineenigma",
+			"flags": {}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "OfflineEnigma's Homebrew",
+			"sorting": "a",
+			"packs": [],
+			"folders": [
+				{
+					"name": "Heresy of the Whispering Way",
+					"sorting": "a",
+					"packs": [
+						"feats",
+						"subclasses",
+						"spells",
+						"equipment",
+						"companions",
+						"rules",
+						"abilities",
+						"clerics",
+						"sf2e-feats",
+						"sf2e-subclasses",
+						"sf2e-spells",
+						"sf2e-equipment",
+						"sf2e-companions",
+						"sf2e-rules",
+						"sf2e-abilities",
+						"sf2e-clerics"
+					],
+					"folders": [],
+					"color": null
+				}
+			],
+			"color": null
+		}
+	],
+	"packs": [
+		{
+			"name": "feats",
+			"label": "Feats",
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part4.png",
+			"path": "packs/feats",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "subclasses",
+			"label": "Subclasses",
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part7.png",
+			"path": "packs/subclasses",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "spells",
+			"label": "Spells",
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part6.png",
+			"path": "packs/spells",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "equipment",
+			"label": "Equipment",
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part3.png",
+			"path": "packs/equipment",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "companions",
+			"label": "Companions",
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part2.png",
+			"path": "packs/companions",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "rules",
+			"label": "Rules",
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part5.png",
+			"path": "packs/rules",
+			"type": "JournalEntry",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "abilities",
+			"label": "Abilities",
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part0.png",
+			"path": "packs/abilities",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "clerics",
+			"label": "Clerics+",
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part1.png",
+			"path": "packs/clerics",
+			"type": "Item",
+			"system": "pf2e",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "sf2e-feats",
+			"label": "Feats",
+			"path": "packs/sf2e-feats",
+			"type": "Item",
+			"system": "sf2e",
+			"flags": {},
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part4.png",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "sf2e-subclasses",
+			"label": "Subclasses",
+			"path": "packs/sf2e-subclasses",
+			"type": "Item",
+			"system": "sf2e",
+			"flags": {},
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part7.png",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "sf2e-spells",
+			"label": "Spells",
+			"path": "packs/sf2e-spells",
+			"type": "Item",
+			"system": "sf2e",
+			"flags": {},
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part6.png",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "sf2e-equipment",
+			"label": "Equipment",
+			"path": "packs/sf2e-equipment",
+			"type": "Item",
+			"system": "sf2e",
+			"flags": {},
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part3.png",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "sf2e-companions",
+			"label": "Companions",
+			"path": "packs/sf2e-companions",
+			"type": "Item",
+			"system": "sf2e",
+			"flags": {},
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part2.png",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "sf2e-rules",
+			"label": "Rules",
+			"path": "packs/sf2e-rules",
+			"type": "JournalEntry",
+			"system": "sf2e",
+			"flags": {},
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part5.png",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "sf2e-abilities",
+			"label": "Abilities",
+			"path": "packs/sf2e-abilities",
+			"type": "Item",
+			"system": "sf2e",
+			"flags": {},
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part0.png",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"name": "sf2e-clerics",
+			"label": "Clerics+",
+			"path": "packs/sf2e-clerics",
+			"type": "Item",
+			"system": "sf2e",
+			"flags": {},
+			"banner": "modules/pf2e-heresy-of-the-whispering-way/assets/banners/part1.png",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		}
+	],
+	"flags": {
+		"pf2e-heresy-of-the-whispering-way": {
+			"pf2e-homebrew": {
+				"equipmentTraits": {
+					"necrograft": {
+						"label": "Necrograft",
+						"description": "Necrografts are macabre additions made to replace a sick or missing part, though some necromancers will use them as an extreme form of body modification, replacing perfectly healthy flesh with an undead equivalent. All necrografts have the graft trait, can only be attached to humanoid creatures, and can only be used to replace a part. A necrograft can only be attached by a creature with the Stitch Flesh feat (as well as the Graft Technician feat, as normal).If a creature with any necrografts is resurrected, any necrografts on the person are destroyed by the powerful vitality magic."
+					}
+				},
+				"featTraits": {
+					"mortic": "Mortic"
+				},
+				"spellTraits": {
+					"flourish": "Flourish"
+				}
+			}
+		}
+	},
+	"description": "<p>A foundry module containing everything from the Heresy of the Whispering Way supplement.</p>",
+	"url": "#{URL}#",
+	"manifest": "#{MANIFEST}#",
+	"download": "#{DOWNLOAD}#"
 }
